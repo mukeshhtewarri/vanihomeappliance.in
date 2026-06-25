@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Global by Vani Home Appliance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#d71111;--dark:#171717;--gray:#666;--orange:#ff7a00;--soft:#fff5ef;--purple:#6b36d9}*{box-sizing:border-box}body{margin:0;font-family:Montserrat,Arial,sans-serif;color:var(--dark);background:#fff;scroll-behavior:smooth}a{text-decoration:none;color:inherit}.topbar{height:44px;background:#fff;display:flex;justify-content:flex-end;align-items:center;gap:28px;padding:0 6%;font-size:13px;box-shadow:0 2px 10px #00000012}.topbar b{color:#000}.nav{position:sticky;top:0;z-index:30;background:white;display:flex;align-items:center;justify-content:space-between;padding:14px 6%;box-shadow:0 8px 24px #00000012}.logo img{height:92px;width:auto;object-fit:contain}.menu{display:flex;gap:34px;align-items:center;font-weight:800;font-size:13px}.menu a.active,.menu a:hover{color:var(--red)}.dealer-btn,.btn{background:linear-gradient(135deg,var(--red),#a80000);color:#fff;padding:13px 20px;border-radius:7px;font-weight:800;box-shadow:0 12px 24px #d7111130;display:inline-block}.hero{min-height:620px;background:linear-gradient(90deg,#ffffff 0%,#ffffffd6 42%,#ffffff66 100%),url('assets/hero-bg.jpg') center/cover no-repeat;position:relative;overflow:hidden;display:flex;align-items:center;padding:50px 6%}.hero:before{content:"";position:absolute;inset:-60px;background:radial-gradient(circle at 75% 20%,#ffdebf70,transparent 30%),radial-gradient(circle at 20% 90%,#ff000022,transparent 32%);animation:floatBg 8s ease-in-out infinite alternate}.hero-content{position:relative;z-index:2;width:48%;animation:slideIn .9s ease both}.hero h1{font-size:56px;line-height:1.05;margin:0 0 16px;font-weight:900;text-transform:uppercase}.hero h1 span{color:var(--red);font-size:72px;display:block}.hero .script{font-family:'Playfair Display',serif;font-size:48px;text-transform:none;font-style:italic;color:#111}.hero p{font-size:18px;line-height:1.6;color:#333;margin-bottom:26px}.hero-products{position:absolute;right:2%;bottom:50px;width:56%;max-width:850px;z-index:2;animation:productFloat 3.8s ease-in-out infinite}.arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:46px;height:46px;border-radius:50%;background:#0008;color:#fff;display:grid;place-items:center;font-size:32px}.arrow.left{left:18px}.arrow.right{right:18px}.trust{margin:-40px auto 30px;position:relative;z-index:10;width:92%;background:white;border-radius:14px;box-shadow:0 18px 48px #00000017;display:grid;grid-template-columns:repeat(5,1fr);gap:0;padding:26px}.trust .item{display:flex;gap:14px;align-items:flex-start;padding:0 16px;border-right:1px solid #eee}.trust .item:last-child{border-right:0}.icon{width:44px;height:44px;min-width:44px;border-radius:50%;border:2px solid var(--red);display:grid;place-items:center;color:var(--red);font-weight:900;font-size:20px}.trust h4{margin:0 0 6px;font-size:14px}.trust p{margin:0;color:#666;font-size:12px;line-height:1.5}.section{padding:64px 6%}.md-card{display:grid;grid-template-columns:300px 1fr 250px 250px;gap:28px;align-items:stretch;background:#fff;border-radius:18px;box-shadow:0 14px 42px #00000012;padding:24px;border:1px solid #eee}.md-card img{width:220px;height:300px;object-fit:cover;object-position:center top;border-radius:13px;flex-shrink:0;image-rendering:-webkit-optimize-contrast}.md-text h2{font-size:28px;margin:8px 0}.red{color:var(--red)}.underline{width:54px;height:4px;background:var(--red);border-radius:8px;margin:12px 0 22px}.md-text p,.vm p{color:#333;line-height:1.75;font-size:14px}.sign{font-size:22px;font-weight:900;color:var(--red);margin-top:18px}.vm{text-align:center;border-radius:14px;padding:28px 22px;background:#fff;box-shadow:0 8px 26px #0000000e;border-bottom:4px solid var(--red)}.vm:nth-child(4){border-bottom-color:var(--purple)}.vm .big{width:64px;height:64px;margin:0 auto 14px;border-radius:50%;background:linear-gradient(135deg,var(--red),var(--orange));color:#fff;display:grid;place-items:center;font-size:30px}.vm:nth-child(4) .big{background:linear-gradient(135deg,var(--purple),#9747ff)}.heading{text-align:center;margin-bottom:34px}.heading small{color:var(--red);font-weight:900}.heading h2{font-size:34px;margin:8px 0}.heading .mini-line{display:inline-block;width:80px;height:4px;background:var(--red);border-radius:30px}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.card{background:#fff;border:1px solid #eee;border-radius:15px;overflow:hidden;box-shadow:0 14px 30px #0000000b;transition:.3s;position:relative}.card:hover{transform:translateY(-8px);box-shadow:0 22px 44px #d7111120}.card .pic{height:235px;padding:12px;background:linear-gradient(#fff,#fff8f8);display:flex;align-items:center;justify-content:center;overflow:hidden}.card img{max-width:100%;max-height:100%;object-fit:contain;transition:.35s}.card:hover img{transform:scale(1.08)}.card-body{padding:18px}.card h3{margin:0 0 10px;font-size:18px;min-height:44px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 14px}.tags span{font-size:11px;background:#fff0f0;color:#bd0000;padding:6px 8px;border-radius:20px;font-weight:800}.price{font-size:24px;color:var(--red);font-weight:900;margin:12px 0}.spec{width:100%;border-collapse:collapse;font-size:12px;margin:14px 0}.spec td{border-bottom:1px solid #eee;padding:8px 4px;color:#555}.spec td:first-child{font-weight:800;color:#222}.outline{border:1.5px solid var(--red);color:var(--red);padding:10px 13px;border-radius:7px;font-weight:900;font-size:12px;display:inline-block}.stats{background:linear-gradient(135deg,#7a0000,#d71111);color:white;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;padding:48px 6%;position:relative;overflow:hidden}.stats:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 30%,#ffffff22,transparent 25%),radial-gradient(circle at 80% 70%,#ff9a0040,transparent 30%);animation:floatBg 7s infinite alternate}.stats div{position:relative}.stats b{font-size:34px}.contact{background:#fff7f3}.contact-box{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact-info,.form{background:#fff;border-radius:16px;padding:28px;box-shadow:0 12px 34px #00000010}.form input,.form textarea,.form select{width:100%;padding:14px;margin:8px 0;border:1px solid #ddd;border-radius:8px;font-family:inherit}.whatsapp{position:fixed;right:22px;bottom:22px;width:58px;height:58px;border-radius:50%;background:#25d366;color:white;z-index:50;display:grid;place-items:center;font-size:32px;box-shadow:0 10px 24px #0003}.footer{background:#121212;color:white;text-align:center;padding:28px 6%;font-size:14px}@keyframes floatBg{from{transform:translateY(-8px)}to{transform:translateY(8px)}}@keyframes productFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}@keyframes slideIn{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:none}}@media(max-width:1000px){.hero{display:block;padding-top:38px}.hero-content{width:100%}.hero h1{font-size:38px}.hero h1 span{font-size:52px}.hero-products{position:relative;right:auto;bottom:auto;width:100%;margin-top:20px}.trust,.products,.stats{grid-template-columns:1fr 1fr}.md-card{grid-template-columns:1fr}.md-card img{height:auto}.contact-box{grid-template-columns:1fr}.menu{display:none}.logo img{height:78px}}@media(max-width:600px){.topbar{height:auto;padding:10px;display:block;text-align:center}.trust,.products,.stats{grid-template-columns:1fr}.hero h1 span{font-size:44px}.section{padding:42px 4%}}
+</style>
+</head>
+<body>
+<a class="whatsapp" href="https://wa.me/917696519559" target="_blank">☘</a>
+<div class="topbar"><span>📞 Call Us <b>7696519559</b></span><span>✉️ Email Us <b>info@vanihomeappliance.in</b></span><a class="dealer-btn" href="#contact">Dealer / Distributor Enquiry</a></div>
+<header class="nav"><a class="logo" href="#"><img src="assets/logo.jpeg" alt="GLOBAL logo"></a><nav class="menu"><a class="active" href="#home">HOME</a><a href="#about">ABOUT US</a><a href="#products">PRODUCTS</a><a href="#dealer">DEALER NETWORK</a><a href="#contact">CONTACT US</a></nav></header>
+<section class="hero-slider" id="home">
+<div class="slide active" style="background:linear-gradient(90deg,#ffffff 0%,#ffffffd6 42%,#ffffff66 100%),url('assets/hero-bg.jpg') center/cover no-repeat">
+<div class="hero-content"><h1>Smart Appliances <span>For A Better</span><em class="script">Tomorrow</em></h1><p>Innovative. Reliable. Efficient. Designed for modern Indian homes with powerful performance, elegant design and trusted quality.</p><a class="btn" href="#products">EXPLORE PRODUCTS →</a></div>
+<img class="hero-products" src="assets/hero-products.png" alt="Global home appliance products">
+</div>
+<div class="slide" style="background:linear-gradient(90deg,#fff0f0 0%,#ffffffcc 45%,#ffffff55 100%),url('assets/hero-bg.jpg') center/cover no-repeat">
+<div class="hero-content"><h1>Premium Quality <span>Made In</span><em class="script">India</em></h1><p>ISI Certified. Proudly manufactured in India with world-class technology, durable materials and unmatched after-sales support.</p><a class="btn" href="#products">VIEW PRODUCTS →</a></div>
+<img class="hero-products" src="assets/hero-products.png" alt="Global home appliance products">
+</div>
+<div class="slide" style="background:linear-gradient(90deg,#fff8f0 0%,#ffffffcc 45%,#ffffff55 100%),url('assets/hero-bg.jpg') center/cover no-repeat">
+<div class="hero-content"><h1>Become Our <span>Dealer /</span><em class="script">Distributor</em></h1><p>Join the GLOBAL family! Attractive margins, strong brand support and growing demand across North India. Enquire today.</p><a class="btn" href="#contact">ENQUIRE NOW →</a></div>
+<img class="hero-products" src="assets/hero-products.png" alt="Global home appliance products">
+</div>
+<button class="arrow left" onclick="changeSlide(-1)">&#8249;</button>
+<button class="arrow right" onclick="changeSlide(1)">&#8250;</button>
+<div class="slide-dots"><span class="dot active" onclick="goSlide(0)"></span><span class="dot" onclick="goSlide(1)"></span><span class="dot" onclick="goSlide(2)"></span></div>
+</section>
+<style>
+.hero-slider{position:relative;overflow:hidden;min-height:620px}
+.slide{min-height:620px;display:none;align-items:center;padding:50px 6%;position:relative}
+.slide.active{display:flex}
+.slide:before{content:"";position:absolute;inset:-60px;background:radial-gradient(circle at 75% 20%,#ffdebf70,transparent 30%),radial-gradient(circle at 20% 90%,#ff000022,transparent 32%)}
+.slide-dots{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:10}
+.dot{width:10px;height:10px;border-radius:50%;background:#ccc;cursor:pointer;transition:.3s}
+.dot.active{background:var(--red);width:26px;border-radius:10px}
+</style>
+<script>
+let cur=0,tot=3,timer;
+function showSlide(n){document.querySelectorAll(".slide").forEach((s,i)=>{s.classList.toggle("active",i===n)});document.querySelectorAll(".dot").forEach((d,i)=>{d.classList.toggle("active",i===n)});cur=n}
+function changeSlide(d){clearInterval(timer);showSlide((cur+d+tot)%tot);startTimer()}
+function goSlide(n){clearInterval(timer);showSlide(n);startTimer()}
+function startTimer(){timer=setInterval(()=>showSlide((cur+1)%tot),4500)}
+startTimer();
+</script>
+<section class="trust"><div class="item"><div class="icon">✓</div><div><h4>Premium Quality</h4><p>High quality materials for long life</p></div></div><div class="item"><div class="icon">⚙</div><div><h4>Powerful Performance</h4><p>Advanced technology for better results</p></div></div><div class="item"><div class="icon">⌂</div><div><h4>Energy Efficient</h4><p>Save energy, save environment</p></div></div><div class="item"><div class="icon">★</div><div><h4>Warranty Support</h4><p>Assured trust and satisfaction</p></div></div><div class="item"><div class="icon">🇮🇳</div><div><h4>Made in India</h4><p>Proudly manufactured for India</p></div></div></section>
+<section class="section" id="about"><div class="md-card"><img src="assets/md-hatinder-mudgil.jpeg" alt="Mr Hatinder Mudgil"><div class="md-text"><h2>From the Desk of Our <br><span class="red">Managing Director</span></h2><div class="underline"></div><p>At Vani Home Appliance, our aim is simple — to create reliable, innovative and affordable home appliances that make everyday life easier and better.</p><p>We believe in delivering products that combine performance, durability and elegant design for modern households.</p><p>Thank you for trusting GLOBAL.</p><div class="sign">Mr Hatinder Mudgil</div><small>Managing Director</small></div><div class="vm"><div class="big">◉</div><h3 class="red">Our Vision</h3><p>To become a trusted name in every home by delivering innovative, reliable and energy efficient appliances that enhance quality of life.</p></div><div class="vm"><div class="big">⌾</div><h3 style="color:var(--purple)">Our Mission</h3><p>To manufacture and deliver high quality home appliances with advanced technology, excellent performance and affordable pricing while ensuring customer satisfaction and trust.</p></div></div></section>
+<section class="section" id="products"><div class="heading"><small>OUR PRODUCTS</small><h2>Built to Simplify Your Life</h2><span class="mini-line"></span></div><div class="products">
+<div class="card"><div class="pic"><img src="assets/products/hand-blender.jpg" alt="Hand Blender"></div><div class="card-body"><h3>Hand Blender Ezee Blend AB-12</h3><div class="tags"><span>300 Watts</span><span>Single Speed</span><span>1 Set</span></div><div class="price">₹ 1,590.00</div><table class="spec"><tr><td>Power Supply</td><td>230V 50Hz AC</td></tr><tr><td>Rating</td><td>3 Minute</td></tr><tr><td>Gross Weight</td><td>750 gms</td></tr><tr><td>Features</td><td>Wall mount stand, stainless steel blades</td></tr></table><a class="outline" href="#contact">VIEW DETAILS</a></div></div>
+<div class="card"><div class="pic"><img src="assets/products/chopper.jpg" alt="Vegetable Chopper"></div><div class="card-body"><h3>Vegetable Chopper & Coffee Beater</h3><div class="tags"><span>250 Watts</span><span>3 Speed</span><span>12 Months</span></div><div class="price">₹ 2,190.00</div><table class="spec"><tr><td>Power Supply</td><td>230V 50Hz AC</td></tr><tr><td>RPM</td><td>3000</td></tr><tr><td>Gross Weight</td><td>750 gms</td></tr><tr><td>Features</td><td>ABS body, stainless steel blade</td></tr></table><a class="outline" href="#contact">VIEW DETAILS</a></div></div>
+<div class="card"><div class="pic"><img src="assets/products/iron.jpg" alt="Dry Iron"></div><div class="card-body"><h3>Sleek Dry Iron</h3><div class="tags"><span>1000 Watts</span><span>Non-Stick</span><span>1 Year</span></div><div class="price">₹ 990.00</div><table class="spec"><tr><td>Rated Voltage</td><td>230V - 50Hz</td></tr><tr><td>Sole Plate</td><td>Non-Stick Coated</td></tr><tr><td>Cord</td><td>180° Swivel</td></tr><tr><td>Features</td><td>Thermostat control, cool touch handle</td></tr></table><a class="outline" href="#contact">VIEW DETAILS</a></div></div>
+<div class="card"><div class="pic"><img src="assets/products/mixer.jpg" alt="2 Jar Mixer Grinder"></div><div class="card-body"><h3>2 Jar Mixer Grinder</h3><div class="tags"><span>500 Watts</span><span>3 Speed</span><span>12 Months</span></div><div class="price">₹ 2,890.00</div><table class="spec"><tr><td>Power Supply</td><td>230V 50Hz AC</td></tr><tr><td>RPM</td><td>18000-20000</td></tr><tr><td>Gross Weight</td><td>2.850 Kg</td></tr><tr><td>Packaging</td><td>370 × 201 × 275 mm</td></tr></table><a class="outline" href="#contact">VIEW DETAILS</a></div></div>
+<div class="card"><div class="pic"><img src="assets/products/induction.jpg" alt="Induction Cooktop"></div><div class="card-body"><h3>Induction Cooktop</h3><div class="tags"><span>2200 Watts</span><span>11 Power Stages</span><span>12 Months</span></div><div class="price">₹ 5,290.00</div><table class="spec"><tr><td>Power Supply</td><td>230V 50Hz AC</td></tr><tr><td>Net Weight</td><td>2.7 Kg</td></tr><tr><td>Gross Weight</td><td>3.5 Kg</td></tr><tr><td>Features</td><td>Surge protection up to 4KV</td></tr></table><a class="outline" href="#contact">VIEW DETAILS</a></div></div>
+<div class="card"><div class="pic"><img src="assets/products/toaster.jpg" alt="Grill Sandwich Maker"></div><div class="card-body"><h3>Grill Sandwich Maker / Toaster TU-056</h3><div class="tags"><span>800 Watts</span><span>1N Sandwich</span><span>1 Year</span></div><div class="price">₹ 1,850.00</div><table class="spec"><tr><td>Rated Voltage</td><td>230V 50Hz AC</td></tr><tr><td>Net Quantity</td><td>One Pc.</td></tr><tr><td>Plate</td><td>Die-cast aluminium</td></tr><tr><td>Features</td><td>Cool touch handle, easy lock system</td></tr></table><a class="outline" href="#contact">VIEW DETAILS</a></div></div>
+<div class="card"><div class="pic"><img src="assets/products/jmg.jpg" alt="Juicer Mixer Grinder"></div><div class="card-body"><h3>Juicer Mixer Grinder</h3><div class="tags"><span>500 Watts</span><span>3 Speed</span><span>24 Months</span></div><div class="price">₹ 3,490.00</div><table class="spec"><tr><td>Power Supply</td><td>230V 50Hz AC</td></tr><tr><td>RPM</td><td>18000-20000</td></tr><tr><td>Gross Weight</td><td>4.150 Kg</td></tr><tr><td>Packaging</td><td>449 × 229 × 314 mm</td></tr></table><a class="outline" href="#contact">VIEW DETAILS</a></div></div>
+</div></section>
+<section class="stats"><div><b>25+</b><p>Years of Excellence</p></div><div><b>1M+</b><p>Happy Customers</p></div><div><b>100%</b><p>Made in India</p></div><div><b>24/7</b><p>Customer Support</p></div></section>
+<section class="section contact" id="contact"><div class="heading"><small>CONTACT US</small><h2>Dealer / Distributor Enquiry</h2><span class="mini-line"></span></div><div class="contact-box"><div class="contact-info"><h2>Vani Home Appliance</h2><p><b>Phone:</b> 7696519559</p><p><b>Email:</b> info@vanihomeappliance.in</p><p><b>Address:</b> Khasra No. 246, Sector-5, Old Kasauli Road, Parwanoo, Distt Solan (H.P.) - 173220</p><p><b>Brand:</b> GLOBAL — Reach Beyond • Grow Beyond • Lead Beyond</p><a class="btn" href="https://wa.me/917696519559" target="_blank">WhatsApp Enquiry</a></div><form class="form" id="enquiryForm"><input name="Name" placeholder="Your Name" required><input name="Phone" placeholder="Mobile Number" required><input name="Email" placeholder="Email Address" type="email"><select name="Interest"><option>Dealer Enquiry</option><option>Distributor Enquiry</option><option>Product Enquiry</option><option>Service Enquiry</option></select><textarea name="Message" rows="5" placeholder="Message"></textarea><button class="btn" type="submit" id="submitBtn">SEND ENQUIRY</button><div id="formMsg" style="display:none;margin-top:16px;padding:14px 18px;border-radius:8px;font-weight:700;font-size:15px;"></div></form>
+<script>
+document.getElementById('enquiryForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const btn = document.getElementById('submitBtn');
+  const msg = document.getElementById('formMsg');
+  btn.textContent = 'Sending...';
+  btn.style.opacity = '0.7';
+  const data = new FormData(this);
+  try {
+    const res = await fetch('https://formspree.io/f/xzzbjwba', {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      msg.style.display = 'block';
+      msg.style.background = '#e8f5e9';
+      msg.style.color = '#1b5e20';
+      msg.style.border = '1px solid #a5d6a7';
+      msg.textContent = '✅ Enquiry bhej di gayi! Hum aapko jald hi contact karenge.';
+      this.reset();
+      btn.textContent = 'SEND ENQUIRY';
+      btn.style.opacity = '1';
+    } else {
+      throw new Error('Failed');
+    }
+  } catch(err) {
+    msg.style.display = 'block';
+    msg.style.background = '#ffebee';
+    msg.style.color = '#b71c1c';
+    msg.style.border = '1px solid #ef9a9a';
+    msg.textContent = '❌ Kuch error aaya. WhatsApp pe contact karein: 7696519559';
+    btn.textContent = 'SEND ENQUIRY';
+    btn.style.opacity = '1';
+  }
+});
+</script></div></section>
+<footer class="footer">© 2026 Vani Home Appliance. All Rights Reserved. | GLOBAL Home Appliances</footer>
+</body>
+</html>
